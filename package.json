@@ -1,0 +1,32 @@
+{
+  "name": "burgerjs-logo",
+  "version": "0.0.0",
+  "description": "ASCII art logo for burgerjs-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc jasmine-node --verbose --captureExceptions test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "nyc": "^8.1.0"
+  },
+  "engines": {
+    "node": "7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labs-js/burgerjs-logo.git"
+  },
+  "keywords": [
+    "turbo-git",
+    "git"
+  ],
+  "author": "lab-js <https://github.com/labs-js>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/labs-js/burgerjs-logo/issues"
+  },
+  "homepage": "https://github.com/labs-js/burgerjs-logo#readme"
+}
