@@ -8,3 +8,16 @@
 # burgerjs-logo
 
 ASCII art logo for burgerjs-cli
+
+# How to use
+
+```
+npm install burgerjs-log
+```
+
+```javascript
+var logo = require('burgerjs-logo');
+
+logo.print();
+
+```
