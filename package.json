@@ -17,16 +17,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/labs-js/burgerjs-logo.git"
+    "url": "git+https://github.com/sfabrizio/burgerjs-logo.git"
   },
   "keywords": [
     "turbo-git",
     "git"
   ],
-  "author": "lab-js <https://github.com/labs-js>",
+  "author": "Samuel Fabrizio <samuelfabrizio@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/labs-js/burgerjs-logo/issues"
+    "url": "https://github.com/sfabrizio/burgerjs-logo/issues"
   },
-  "homepage": "https://github.com/labs-js/burgerjs-logo#readme"
+  "homepage": "https://github.com/sfabrizio/burgerjs-logo#readme"
 }
