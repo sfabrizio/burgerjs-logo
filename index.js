@@ -17,8 +17,8 @@ module.exports = (function() {
         console.log('      _..----.._      \r\n    .\'     o    \'.    \r\n   \/   o       o  \\\r\n  |o        o     o|\r\n  \/\'-.._o     __.-\'\\\r\n  \\      `````     \/\r\n  |``--........--\'`|\r\n   \\ \/\r\n     `\'----------\'`');
     }
 
-    function finalPrint() {
-        printText();
+    function finalPrint(options) {
         printArtLogo();
+        printText();
     }
 })();
