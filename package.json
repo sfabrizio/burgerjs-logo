@@ -1,6 +1,6 @@
 {
   "name": "burgerjs-logo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ASCII art logo for burgerjs-cli",
   "main": "index.js",
   "scripts": {
