@@ -19,6 +19,6 @@ module.exports = (function() {
 
     function finalPrint() {
         printText();
-        setTimeout(printArtLogo, 0);
+        printArtLogo();
     }
 })();
