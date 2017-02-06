@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 module.exports = (function() {
-    var turboLogo = require('turbo-logo');
+    var turboLogo = require('turbo-logo'),
+        colors = require('colors/safe');
 
     return {
         print: finalPrint
@@ -9,16 +10,20 @@ module.exports = (function() {
 
     /////////
 
-    function printText() {
-        turboLogo('Burger JS');
+    function getText() {
+        return 'Burger JS';
     }
 
-    function printArtLogo() {
-        console.log('      _..----.._      \r\n    .\'     o    \'.    \r\n   \/   o       o  \\\r\n  |o        o     o|\r\n  \/\'-.._o     __.-\'\\\r\n  \\      `````     \/\r\n  |``--........--\'`|\r\n   \\ \/\r\n     `\'----------\'`');
+    function getBurgerAscii() {
+        return '      _..----.._      \r\n    .\'     o    \'.    \r\n   \/   o       o  \\\r\n  |o        o     o|\r\n  \/\'-.._o     __.-\'\\\r\n  \\      `````     \/\r\n  |``--........--\'`|\r\n   \\ \/\r\n     `\'----------\'`';
     }
 
     function finalPrint(options) {
-        printArtLogo();
-        printText();
+        var burger = getBurgerAscii(),
+            text = getText(),
+            color = options && options.color || 'rainbow';
+
+        console.log(colors[color](burger));
+        turboLogo(text, color);
     }
 })();
