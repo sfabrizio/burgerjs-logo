@@ -7,6 +7,7 @@
     "test": "nyc jasmine-node --verbose --captureExceptions test"
   },
   "dependencies": {
+    "color": "^1.0.3",
     "turbo-logo": "^0.3.0"
   },
   "devDependencies": {
