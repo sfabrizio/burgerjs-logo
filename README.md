@@ -23,8 +23,18 @@ logo.print();
 
 ```
 
+## The color can be especify by param.. The color allowed are the supported by the library [colors](https://www.npmjs.com/package/colors)
+
+```javascript
+var logo = require('burgerjs-logo');
+
+logo.print({'color': 'yellow'});
+
+```
+
+
 ## Oneline terminal run:
 
 ```
-node -e "require('burgerjs-logo').print()"
+node -e "require('burgerjs-logo').print({'color': 'yellow'})"
 ```
