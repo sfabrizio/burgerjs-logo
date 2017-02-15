@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 module.exports = (function() {
+    'use strict';
+
     var turboLogo = require('turbo-logo'),
         colors = require('colors/safe');
 
