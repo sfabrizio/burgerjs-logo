@@ -6,12 +6,12 @@
 [![Code Climate](https://codeclimate.com/github/sfabrizio/burgerjs-logo/badges/gpa.svg)](https://codeclimate.com/github/sfabrizio/burgerjs-logo)
 # burgerjs-logo
 
-ASCII art logo for burgerjs-cli
+ASCII art logo for [burgerjs-cli](https://www.npmjs.com/package/burgerjs-cli)
 
 # Install
 
 ```
-npm install burgerjs-log
+npm install burgerjs-logo
 ```
 
 # How to use
