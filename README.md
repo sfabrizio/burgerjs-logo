@@ -23,7 +23,7 @@ logo.print();
 
 ```
 
-## The color can be especify by param.. The color allowed are the supported by the library [colors](https://www.npmjs.com/package/colors)
+The color of the logo can be especify by param. The colors are the supported by the library [colors](https://www.npmjs.com/package/colors)
 
 ```javascript
 var logo = require('burgerjs-logo');
